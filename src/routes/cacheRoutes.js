@@ -1,5 +1,5 @@
 import express from 'express';
-import { setCacheValue, getCacheValue, deleteCacheValue, incrementValue } from '../controllers/cacheController'
+import { setCacheValue, getCacheValue, deleteCacheValue, incrementValue } from '../controllers/cacheController.js'
 
 const router = express.Router();
 

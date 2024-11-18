@@ -1,4 +1,4 @@
-import redisClient from "../config/redis";
+import redisClient from "../config/redis.js";
 
 //Guardar un valor de Redis
 export const setCacheValue = async (req, res) => {
